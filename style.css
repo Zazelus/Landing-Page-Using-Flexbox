@@ -58,8 +58,8 @@ ul a {
     padding-right: 128px;
 }
 
-button, .button2 {
-    border-radius: 6px;
+button {
+    border-radius: 5px 20px 5px;
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 24px;
@@ -113,4 +113,29 @@ button, .button2 {
     font-size: 18px;
     font-weight: bolder;
     color: #1F2937;
+}
+
+.modal {
+    justify-content: center;
+    padding: 64px;
+}
+
+.modal-container {
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    background-color: #3882F6;
+    padding: 32px;
+    gap: 96px;
+}
+
+.modal-header {
+    font-size: 20px;
+    font-weight: bold;
+    color:#E5E7EB;
+    margin-bottom: 4px;
+}
+
+.modal-text {
+    color:#E5E7EB
 }
