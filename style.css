@@ -67,3 +67,50 @@ button, .button2 {
     color: white;
     background-color: #3882F6;
 }
+
+.title {
+    text-align: center;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 64px;
+}
+
+.img-container {
+    max-width: 200px;
+    text-align: center;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 128px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+
+}
+
+.quote-author-text {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #1F2937;
+}
