@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Brush Script MT', cursive, Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     min-height: 100vh;
     display: flex;
@@ -23,7 +23,9 @@ ul a {
 .header, .footer {
     display: flex;
     flex-direction: column;
-    background-color: #1F2937;
+    /*background-color: #1F2937;*/
+    background-color: #9933ff;
+    /*background-image: radial-gradient(#ffaa00,#ffcc66)*/
 }
 
 .footer {
@@ -35,10 +37,12 @@ ul a {
 
 .header p, .header h1, .header a, .header .left-header {
     color: #E5E7EB;
+    
 }
 
 .left-header {
     font-size: 24px;
+    font-weight: 900;
 }
 
 .navbar {
@@ -59,13 +63,20 @@ ul a {
 }
 
 button {
-    border-radius: 5px 20px 5px;
+    border-radius: 5px 10px 5px;
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 24px;
     padding-right: 24px;
     color: white;
-    background-color: #3882F6;
+    background-color: #ffb31a;
+    /* padding: 0; */
+    border: 2px solid white;
+    /* background: none; */
+}
+
+.content {
+    background-color: #fff2cc;
 }
 
 .title {
@@ -83,8 +94,9 @@ button {
 .info-container {
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 64px;
     margin-bottom: 64px;
+    flex-wrap: wrap;
 }
 
 .img-container {
@@ -92,8 +104,13 @@ button {
     text-align: center;
 }
 
+.img-container img {
+    height: auto;
+    width: 200px;
+}
+
 .quote-container {
-    background-color: #E5E7EB;
+    background-color: #ffdf80;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -117,14 +134,14 @@ button {
 
 .modal {
     justify-content: center;
-    padding: 64px;
+    padding: 96px;
 }
 
 .modal-container {
     border-radius: 12px;
     display: flex;
     justify-content: center;
-    background-color: #3882F6;
+    background-color: #ffb31a;
     padding: 32px;
     gap: 96px;
 }
